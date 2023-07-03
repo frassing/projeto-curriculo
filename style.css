@@ -1,13 +1,21 @@
 body {
-    color: rgb(255, 255, 255);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 30px;
+<<<<<<< HEAD
     background-color: rgb(235, 235, 235);
+=======
+    background-color: rgb(172, 181, 197);
+    color: #48474d;
+>>>>>>> versao-03
 }
 
 h1 {
     text-align: center;
-    color: rgba(86, 72, 138, 0.342);
+}
+
+h1:hover {
+    color: rgba(86, 72, 138, 0.678);
+    transform: scale(1.03);
 }
 
 section {
@@ -16,10 +24,11 @@ section {
 
 .contatos {
     padding: 5px;
-    background-color: rgb(172, 181, 197);
-    border-radius: 5px;
+    border-radius: 8px;
     width: fit-content;
     margin: 30px auto;
+    background-color: rgb(235, 235, 235);
+    border: 3px solid rgba(72, 93, 138, 0.301);
 }
 
 .contatos p {
@@ -32,11 +41,17 @@ section {
 }
 
 .content {
-    border-radius: 5px;
-    background-color: rgb(172, 181, 197);
+    border-radius: 8px;
     padding: 10px 20px;
+<<<<<<< HEAD
     margin: auto;
     width: fit-content;
+=======
+    width: fit-content;
+    margin: auto;
+    background-color: rgb(235, 235, 235);
+    border: 3px solid rgba(72, 93, 138, 0.301);
+>>>>>>> versao-03
 }
 
 h3 {
