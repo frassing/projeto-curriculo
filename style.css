@@ -2,10 +2,16 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 30px;
     background-color: rgb(172, 181, 197);
+    color: #48474d;
 }
 
 h1 {
     text-align: center;
+}
+
+h1:hover {
+    color: rgba(86, 72, 138, 0.678);
+    transform: scale(1.03);
 }
 
 section {
@@ -18,7 +24,7 @@ section {
     width: fit-content;
     margin: 30px auto;
     background-color: rgb(235, 235, 235);
-    border: 4px solid rgba(86, 72, 138, 0.301);
+    border: 3px solid rgba(72, 93, 138, 0.301);
 }
 
 .contatos p {
@@ -36,7 +42,7 @@ section {
     width: fit-content;
     margin: auto;
     background-color: rgb(235, 235, 235);
-    border: 4px solid rgba(86, 72, 138, 0.301);
+    border: 3px solid rgba(72, 93, 138, 0.301);
 }
 
 h3 {
