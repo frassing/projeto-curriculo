@@ -1,0 +1,38 @@
+body {
+    background-color:rgb(46, 97, 114);
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    margin-top: 40px;
+    text-transform: uppercase;
+}
+
+.contatos {
+    padding: 5px;
+    background-color: rgba(159, 175, 185, 0.753);
+    border-radius: 5px;
+    width: fit-content;
+    margin: 30px auto;
+}
+
+.contatos p {
+    margin: 0.6rem;
+}
+
+.contatos a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+li {
+    padding: 0.5rem 0;
+    list-style: circle;
+}
