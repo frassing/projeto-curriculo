@@ -5,6 +5,10 @@ body {
     color: #48474d;
 }
 
+section {
+    margin-bottom: 30px;
+}
+
 h1 {
     text-align: center;
 }
@@ -14,10 +18,7 @@ h1:hover {
     transform: scale(1.03);
 }
 
-section {
-    margin-bottom: 30px;
-}
-
+/* Seção Contatos */
 .contatos {
     padding: 5px;
     border-radius: 8px;
@@ -50,7 +51,30 @@ h3 {
     margin-bottom: 10px;
 }
 
+ul {
+    padding: 0;
+}
+
 li {
-    padding: 0.3rem 0;
+    padding: 0.6rem 0;
     list-style: circle;
+    list-style-position: inside;
+}
+
+/* Seção Experiência */
+.experiencia p {
+    margin-bottom: 7px;
+}
+
+.atividades {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.experiencia ul {
+    margin-top: 0;
+}
+
+.experiencia li {
+    padding: 0;
 }
